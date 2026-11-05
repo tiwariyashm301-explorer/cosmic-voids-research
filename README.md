@@ -21,9 +21,7 @@ differences between Cold Dark Matter (CDM) and Warm Dark Matter
 
 ## Data Availability
 
-Simulation datasets are not included in this repository.
-Users must obtain any required data separately and ensure they
-have permission to use it.
+Simulation datasets are not included in this repository. Users must obtain any required data themselves or simulate it using MP-GADGET, etc. I am currently simulating my own CDM and WDM fields (using a transfer function) with MP-GADGET.
 
 ## Status
 
