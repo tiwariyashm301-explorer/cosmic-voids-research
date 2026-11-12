@@ -23,7 +23,10 @@ differences between Cold Dark Matter (CDM) and Warm Dark Matter
 
 Simulation datasets are not included in this repository. Users must obtain any required data themselves or simulate it using MP-GADGET, etc. I am currently simulating my own CDM and WDM fields (using a transfer function) with MP-GADGET.
 
-## Status
+## What each code does
+
+cic.py---Cloud in Cell density assignment
+vogel_pk.py---uses transfer function from vogel and abazajian 2023, PRD to calcualte initial power spectrums for wdm masses 1,2,3 and 5 keV. Modify the masses line to get the same for other masses. This is spin 1/2 thermal wdm only. For spin 3/2, see  	arXiv:2210.10753 
 
 Research code under active development. Methods and results
 are documented as the analysis progresses.
